@@ -1,5 +1,7 @@
 # Week 8 Assignment 5 — Exception Handling, Interfaces and More
 
+## Juan Prado
+
 ## Assignment Description
 
 This assignment extends the futures contract project by introducing exception handling, interfaces, file input, collections, and volatility computation.
