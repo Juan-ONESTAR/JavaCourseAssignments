@@ -46,7 +46,7 @@ Replace the placeholder entry with the exact name of your text data file.
 
 ## OnlineGDB
 
-[Open Week 8 Assignment 5 on OnlineGDB](PASTE_YOUR_ONLINEGDB_LINK_HERE)
+[Open Week 8 Assignment 5 on OnlineGDB](https://www.onlinegdb.com/s/as/390019)
 
 ## How to Run the Program
 
