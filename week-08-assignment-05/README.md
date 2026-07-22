@@ -27,8 +27,13 @@ The Java source files are stored in the `src` folder.
 
 ```text
 src/
-├── [PASTE_EXACT_JAVA_FILE_NAME.java]
-└── [PASTE_ANOTHER_JAVA_FILE_NAME.java]
+├── [VolatilityCalculator.java]
+└── [MonteCarloVolatility.java]
+└── [FutureContract.java]
+└── [FutureTest.java]
+└── [GoldFuture.java]
+└── [CopperFuture.java]
+└── [CoffeeFuture.java]
 ```
 
 Replace the placeholder entries with the exact names of your Java files.
@@ -39,7 +44,9 @@ The program's text data files are stored in the `data` folder.
 
 ```text
 data/
-└── [PASTE_EXACT_DATA_FILE_NAME.txt]
+└── [gold_prices.txt]
+└── [copper_prices.txt]
+└── [coffee_prices.txt]
 ```
 
 Replace the placeholder entry with the exact name of your text data file.
