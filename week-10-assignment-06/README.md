@@ -595,5 +595,5 @@ The repository does not include compiled `.class` files or IDE-generated folders
 ## GitHub Repository
 
 ```text
-[Paste final GitHub repository link here]
+[https://github.com/Juan-ONESTAR/JavaCourseAssignments/tree/main/week-10-assignment-06]
 ```
