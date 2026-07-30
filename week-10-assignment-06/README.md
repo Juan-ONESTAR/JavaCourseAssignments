@@ -587,7 +587,7 @@ The repository does not include compiled `.class` files or IDE-generated folders
 ## OnlineGDB Link
 
 ```text
-[https://www.onlinegdb.com/s/as/390020]
+https://www.onlinegdb.com/s/as/390020
 ```
 
 ---
@@ -595,5 +595,5 @@ The repository does not include compiled `.class` files or IDE-generated folders
 ## GitHub Repository
 
 ```text
-[https://github.com/Juan-ONESTAR/JavaCourseAssignments/tree/main/week-10-assignment-06]
+https://github.com/Juan-ONESTAR/JavaCourseAssignments/tree/main/week-10-assignment-06
 ```
