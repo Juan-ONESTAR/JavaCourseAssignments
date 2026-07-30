@@ -439,7 +439,7 @@ I used Gemini primarily for two purposes:
 1. To help prepare, construct, and review the organization of this README.
 2. To compare my Java implementation against the assignment requirements and identify anything that might not meet the expected class structure, recursion requirements, input validation requirements, or automated-grading expectations.
 
-I did not rely on Gemini as a replacement for understanding the program. I reviewed its responses and compared its suggestions against the assignment instructions before making changes.
+I did not rely on Gemini as a replacement for understanding the program. I also did not use Gemini to generate my understanding of the Recursive Method or the programs Object Oriented design. I reviewed its responses and compared its suggestions against the assignment instructions before making changes.
 
 ### Gemini Prompt 1
 
