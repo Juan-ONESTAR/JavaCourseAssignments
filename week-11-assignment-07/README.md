@@ -210,7 +210,7 @@ The program can also be compiled and executed using OnlineGDB.
 
 **OnlineGDB Link:**
 
-`[PASTE YOUR ONLINEGDB SHARE LINK HERE]`
+`https://www.onlinegdb.com/s/as/390021`
 
 ---
 
@@ -218,7 +218,7 @@ The program can also be compiled and executed using OnlineGDB.
 
 **GitHub Repository:**
 
-`[PASTE YOUR GITHUB REPOSITORY LINK HERE]`
+``
 
 ---
 
@@ -228,11 +228,11 @@ The program can also be compiled and executed using OnlineGDB.
 
 **Prompt:**
 
-> [PASTE THE FIRST PROMPT YOU ACTUALLY GAVE GEMINI HERE]
+> How should I come up with collision tests and edge cases for this program?
 
 **What Gemini helped me with:**
 
-[Briefly explain what Gemini helped you understand, plan, debug, test, or review.]
+Providing examples of unit tests for the program that can test edge cases and holes in it
 
 ---
 
@@ -240,44 +240,22 @@ The program can also be compiled and executed using OnlineGDB.
 
 **Prompt:**
 
-> [PASTE THE SECOND PROMPT YOU ACTUALLY GAVE GEMINI HERE]
+> I am having an issue getting this program to run, what is wrong?
 
 **What Gemini helped me with:**
 
-[Briefly explain what Gemini helped you understand, plan, debug, test, or review.]
+It went through the program files I provided and corrected me on spelling and syntax errors. As well as correcting the structure of the program
 
 ---
 
 ## Suggestion I Changed, Corrected, or Rejected
 
-[Describe at least one Gemini suggestion that you did not use exactly as provided. Explain what Gemini suggested and what you changed, corrected, or rejected.]
+I rejected Gemini when it attempted to provide a fully completed version of the program when I gave it the files to check for errors and issues I had when trying to run the program.
+I was mostly confident in the program and only needed assistance checking syntax and spelling errors I may have done.
 
 ---
 
 ## How I Verified the Program
 
-[Explain how you tested the final program. Mention compiling and running the program, adding six employees, retrieving existing employees, testing a nonexistent employee, and confirming that employees whose names hash to the same bucket can still be retrieved correctly.]
+I verified the program by compiling and running all of the Java files together in OnlineGDB. I first confirmed that the program successfully added six different Employee objects to the hash table and displayed the contents of each bucket. I then tested the get(String name) method by retrieving three employees that were added to the table: Amy, May, and Carlos. I also searched for Jordan, who was not added, and confirmed that the program returned null and displayed that the employee was not found. To verify collision handling, I used Amy and May because both names hash to bucket 5 with the program's hash function. I confirmed that both Employee objects were stored in the same linked-list bucket and that each one could still be retrieved correctly. This showed that separate chaining was working as expected.
 
----
-
-## Assignment Requirements Completed
-
-- [x] Stores complete `Employee` objects
-- [x] Uses employee names as hash keys
-- [x] Uses `LinkedList3<Employee>`
-- [x] Uses an array of linked-list buckets
-- [x] Includes a method for adding employees
-- [x] Includes `get(String name)`
-- [x] Returns the matching `Employee`
-- [x] Returns `null` when an employee is not found
-- [x] Handles collisions using separate chaining
-- [x] Adds at least six employees
-- [x] Retrieves at least three existing employees
-- [x] Attempts to retrieve one nonexistent employee
-- [x] Demonstrates multiple names hashing to the same bucket
-- [x] Does not use `HashMap`
-- [x] Does not use `Hashtable`
-- [x] Does not use Java's built-in `LinkedList`
-- [ ] Gemini reflection completed
-- [ ] OnlineGDB link added
-- [ ] GitHub repository link added
